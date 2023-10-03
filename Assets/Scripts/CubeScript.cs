@@ -49,7 +49,7 @@ public class CubeScript : MonoBehaviour
             Instantiate(bullets[whichBullet], spawner.position,
                 bullets[whichBullet].transform.rotation);
             //Debug.Log("Firing " + bullets[whichBullet]);
-            Debug.Log("Haha, I changed this in Chrome!);
+            Debug.Log("Haha, I changed this in Chrome!");
         }
     }
 }

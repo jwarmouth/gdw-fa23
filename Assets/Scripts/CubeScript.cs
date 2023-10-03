@@ -16,6 +16,8 @@ public class CubeScript : MonoBehaviour
         Move();
         Shoot();
         Reload(); // figure out how to do this -- remember to ask Jeff
+
+
     }
 
     void Move()
@@ -46,7 +48,8 @@ public class CubeScript : MonoBehaviour
             int whichBullet = Random.Range(0, bullets.Length);
             Instantiate(bullets[whichBullet], spawner.position,
                 bullets[whichBullet].transform.rotation);
-            Debug.Log("Firing " + bullets[whichBullet]);
+            //Debug.Log("Firing " + bullets[whichBullet]);
+            Debug.Log("Haha, I changed this in Chrome!);
         }
     }
 }
